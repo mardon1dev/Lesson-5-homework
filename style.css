@@ -1,0 +1,48 @@
+body{
+    background: rgb(85, 39, 128);
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+
+}
+.div{
+    margin-top: 50px;
+}
+.card img{
+    height: 200px;
+    object-fit: fill;
+    border-radius: 5px;
+}
+
+input[type=text]{
+    padding: 10px;
+    color: red;
+    max-width: 350px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+::placeholder{
+    color: purple;
+}
+button{
+    max-width: 200px;
+    width: 100%;
+    height: 50px;
+    background: firebrick;
+    color: white; 
+    border: none;  
+}
+.go{
+    font-weight: bolder;
+    animation: color 1s infinite ;
+}
+.country{
+    font-weight: bold;
+    animation: color 1s infinite;
+}
+@keyframes color {
+    0%{color: rgb(255, 0, 0)};
+}
